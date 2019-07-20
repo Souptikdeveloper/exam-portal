@@ -98,7 +98,7 @@ class ExamScoreController extends Controller
     }
 
     public function qualify_exam_score(){
-        $info = ExamResult::join('users','exam_result.user_id','users.id')->where('users.id',Auth::user()->id)->get();
+        $info = ExamResult::select('users.*','exam_result.*')->join('users','exam_result.user_id','users.id')->where('users.id',Auth::user()->id)->get();
         return view('Exam.qualify_exam',['info'=>$info]);
     }
 }

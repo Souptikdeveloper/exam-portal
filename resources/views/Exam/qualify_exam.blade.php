@@ -1,4 +1,4 @@
-@extends('Exam.layouts.examlayoutnew')
+@extends('Exam.layouts.examlayoutnewtwo')
 @section('content')
     <section id="terms-area">
         <div class="container">
@@ -33,7 +33,7 @@
                                             <tbody>
                                             <?php $i=0?>
                                             @foreach($info as $row)
-                                                <?php $i++;
+                                                <?php
                                                 $marks_data = \App\Model\ExamScoreBook::first();
                                                 ?>
                                                 <tr>
@@ -44,19 +44,10 @@
                                                     <td>{{$row->qualifying_exam_score}}</td>
                                                     <td>{{$row->qualifying_exam_status}}</td>
                                                 </tr>
+												<?php  $i++; ?>
                                             @endforeach
                                             </tbody>
-                                            <tfoot>
-                                            <tr>
-                                                <th>Sl no</th>
-                                                <th>Student Name</th>
-                                                <th>Full Marks</th>
-                                                <th>Exam Cutoff Score</th>
-                                                <th>Marks Obtained</th>
-                                                <th>Status</th>
-                                            </tr>
-                                            </tfoot>
-                                        </table>
+                                           </table>
                                     </div><!-- /.box-body -->
                                 </div><!-- /.box -->
                             </div><!-- /.col -->

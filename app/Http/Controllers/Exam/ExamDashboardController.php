@@ -137,10 +137,7 @@ class ExamDashboardController extends Controller
             $buttons = ' <ul class="pull-left">
                              <li><button class="btn btn-primary" onclick="append_data(' . ($next) . ',' . ($next + 1) . ',' . $mark . ')">Mark for Review & next</button></li>
                              </ul>
-                             <ul class="pull-left">
-                             <li><button class="btn btn-success" onclick="append_data(' . ($next) . ',' . ($next - 1) . ','. ')">Previous</button></li>
-                             </ul>
-                             <ul class="pull-right">
+                            <ul class="pull-right">
                               <li><button class="btn btn-primary" onclick="append_data(' . ($next) . ',' . ($next + 1) . ')">Save and next</button></li>
                               </ul>';
             $submitbutton = '
