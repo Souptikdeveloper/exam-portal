@@ -26,7 +26,7 @@
                                                 <th>Student Name</th>
                                                 <th>Full Marks</th>
                                                 <th>Exam Cutoff Score</th>
-                                                <th>Marks Obtained</th>
+                                                <th>Total No of correct answer</th>
                                                 <th>Percentage</th>
                                                 <th>Status</th>
                                             </tr>
