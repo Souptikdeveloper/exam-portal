@@ -27,6 +27,7 @@
                                                 <th>Full Marks</th>
                                                 <th>Exam Cutoff Score</th>
                                                 <th>Marks Obtained</th>
+                                                <th>Percentage</th>
                                                 <th>Status</th>
                                             </tr>
                                             </thead>
@@ -42,6 +43,7 @@
                                                     <td>{{$marks_data->qualifying_exam_question_count}}</td>
                                                     <td>{{$marks_data->qualifying_exam_score_cutoff}}</td>
                                                     <td>{{$row->qualifying_exam_score}}</td>
+                                                    <td>{{($row->qualifying_exam_score / $marks_data->qualifying_exam_question_count)*100 }} %</td>
                                                     <td>{{$row->qualifying_exam_status}}</td>
                                                 </tr>
 												<?php  $i++; ?>
