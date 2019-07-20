@@ -1,0 +1,157 @@
+/*Style Listed For bso*/
+/*Base Structure*/
+.site_wrapper {width: 100%;  margin: 0 auto 0 auto;}
+.container_full {width: 100%; float: left; margin: auto auto auto auto; }
+
+
+
+
+body{font-family: 'Exo 2', sans-serif;}
+p{font-family: 'Exo 2', sans-serif; letter-spacing: 1px;    color: #000;}
+
+
+/*-----------------------------------*/
+/*inner-area*/
+/*-----------------------------------*/
+
+#page-area1{ width: 100%; float: left; position: relative; padding: 20px;}
+#page-area1 .inner-area{ width: 100%; float: left; position: relative; padding: 20px; border-radius: 6px; margin-bottom: 10px;
+    border: dashed 1px #bbb8b8;}
+#page-area1 .inner-area h1 {
+    font-size: 17px;
+    margin-bottom: 35px;font-weight: 400;
+    letter-spacing: 1px;
+    border-bottom: solid 1px #dad8d8;
+}
+#page-area1 .inner-area p{ margin-bottom: 20px;}
+#page-area1 .inner-area .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px\9;
+    margin-left: 0;
+}
+
+#page-area1 .inner-area .btn-primary { border-radius: 6px; margin: 4px 0;
+    padding: 12px 10px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px !important;
+    letter-spacing: 1px;
+    border: solid 1px #000;
+}
+#page-area1 .inner-area .btn-primary:hover{ background-color: #fff; color: #000; transition: all .5s ease-in-out;}
+#page-area1 .inner-area ul li{ display: inline-block; list-style-type: none;}
+
+#page-area1 .inner-area .btn-success {  text-transform: uppercase;
+    font-size: 11px !important;
+    letter-spacing: 1px;margin: 4px 0;
+    border: solid 1px #0874fb;
+    color: #fff;
+    background-color: #0874fb;
+    padding: 12px 10px;
+}
+#page-area1 .inner-area .btn-success:hover{ background-color: #fff; color: #0874fb; transition: all .5s ease-in-out;}
+#page-area1 .inner-area .btn:focus {
+    outline: none;}
+#page-area1 .inner-area  .number-page-area{float: left; position: relative;border: dashed 2px #e8e3e3;}
+#page-area1 .inner-area  .number-page-area h1 { border-bottom: none;
+    font-size: 17px;
+    margin-bottom: 0;}
+#page-area1 .inner-area .number-page-area ul li{ padding: 0;
+    background-color: transparent;
+    width: 15%;
+    line-height: 26px;
+    border-radius: 7px;
+    text-align: center;
+    border: solid 1px #555;
+    margin-bottom: 7px;}
+#page-area1 .inner-area .number-page-area ul li a{ color: #000; font-weight: 600;}
+#page-area1 .inner-area .number-page-area .active-area{ background-color: #ef0808;}
+#page-area1 .inner-area .number-page-area .save-page{ background-color: #74ef12;}
+
+/*souptik*/
+#page-area2 .inner-area .btn-primary:hover{ background-color: #fff; color: #000; transition: all .5s ease-in-out;}
+#page-area2 .inner-area ul li{ display: inline-block; list-style-type: none;}
+
+#page-area2 .inner-area .btn-success {  text-transform: uppercase;
+    font-size: 11px !important;
+    letter-spacing: 1px;margin: 4px 0;
+    border: solid 1px #0874fb;
+    color: #fff;
+    background-color: #0874fb;
+    padding: 12px 10px;
+}
+#page-area2 .inner-area .btn-success:hover{ background-color: #fff; color: #0874fb; transition: all .5s ease-in-out;}
+#page-area2 .inner-area .btn:focus {
+    outline: none;}
+#page-area2 .inner-area  .number-page-area{float: left; position: relative;border: dashed 2px #e8e3e3;}
+#page-area2 .inner-area  .number-page-area h1 { border-bottom: none;
+    font-size: 17px;
+    margin-bottom: 0;}
+#page-area2 .inner-area .number-page-area ul li{ padding: 0;
+    background-color: transparent;
+    width: 15%;
+    line-height: 26px;
+    border-radius: 7px;
+    text-align: center;
+    border: solid 1px #555;
+    margin-bottom: 7px;}
+#page-area2 .inner-area .number-page-area ul li a{ color: #000; font-weight: 600;}
+#page-area2 .inner-area .number-page-area .active-area{ background-color: #ef0808;}
+#page-area2 .inner-area .number-page-area .save-page{ background-color: #74ef12;}
+
+
+/*-----------------------------------*/
+/*terms-area*/
+/*-----------------------------------*/
+
+#terms-area{ width: 100%; float: left; position: relative; padding: 20px;}
+#terms-area .inner-area{ width: 100%; float: left; position: relative; padding: 20px; border-radius: 6px; margin-bottom: 10px;
+    border: solid 1px #d4d0d0;}
+#terms-area .inner-area h1 {
+    font-size: 17px;
+    margin-bottom: 35px;font-weight: 400;
+    letter-spacing: 1px;
+    border-bottom: solid 1px #dad8d8;
+}
+#terms-area .inner-area p{ margin-bottom: 20px;}
+#terms-area ul li{ font-weight: 100;
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 1px;
+    color: #635f5f;
+    text-transform: capitalize;
+    font-size: 12px;}
+
+#terms-area .area2{ width: 100%; float: left; position: relative; padding: 20px; border-radius: 6px; margin-bottom: 10px;
+    border: solid 1px #d4d0d0; text-align: center;
+    font-weight: 100;
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 1px;
+    color: #635f5f;
+    text-transform: capitalize;
+    font-size: 12px;}
+
+#terms-area  .radio { position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px; border-radius: 6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.accept-clr{background-color: #0874fb;}
+.clr-decline{background-color: #9a0000;}
+#terms-area .btn-success {
+    text-transform: uppercase;
+    font-size: 11px !important;
+    letter-spacing: 1px;
+    margin: 4px 0;
+    border: solid 1px #0874fb;
+    color: #fff;
+    background-color: #0874fb;
+    padding: 12px 10px;
+}
